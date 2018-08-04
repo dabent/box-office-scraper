@@ -4,7 +4,7 @@ class BoxOfficeSpider(scrapy.Spider):
 
     name = "box_office_all_time_domestic"
     start_urls = [
-        'https://www.boxofficemojo.com/alltime/domestic.htm?page=156',
+        'https://www.boxofficemojo.com/alltime/domestic.htm?page=0',
     ]
 
     def parse(self, response):
